@@ -109,3 +109,13 @@ Roman Numerals Helper --> 4kyu
 #                 result += romanNumerals[roman_str[i]]
 #                 i += 1
 #         return result
+
+"""
+8kyu --> Sum Mixed Array
+"""
+# def sum_mix(arr):
+#     result = 0
+#     for i in arr:
+#         result += int(i)
+#     return result
+
