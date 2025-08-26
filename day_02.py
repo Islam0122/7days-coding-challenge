@@ -131,3 +131,8 @@ Highest and Lowest --> 7kyu
 #         res.append(int(i))
 #     return str( max(res)) + " " + str(min(res))
 # print(high_and_low("1 2 3 4 5 6 7 8 9"))
+"""
+Is he gonna survive? --> 8kyu
+"""
+def hero(bullets: int, dragons: int) -> bool:
+    return bullets >= dragons * 2
