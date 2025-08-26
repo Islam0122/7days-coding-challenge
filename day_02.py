@@ -134,5 +134,11 @@ Highest and Lowest --> 7kyu
 """
 Is he gonna survive? --> 8kyu
 """
-def hero(bullets: int, dragons: int) -> bool:
-    return bullets >= dragons * 2
+# def hero(bullets: int, dragons: int) -> bool:
+#     return bullets >= dragons * 2
+
+"""
+Function 1 - hello world --> 8kyu
+"""
+# def greet() -> str:
+#     return "".join([chr(c) for c in [104,101,108,108,111,32,119,111,114,108,100,33]])
