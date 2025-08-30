@@ -22,7 +22,15 @@ Detect Pangram --> 6kyu
 
 
 """def is_valid_walk(walk) --> 6kyu"""
-def is_valid_walk(walk):
-    if len(walk) != 10:
-        return False
-    return walk.count('n') == walk.count('s') and walk.count('e') == walk.count('w')
+# def is_valid_walk(walk):
+#     if len(walk) != 10:
+#         return False
+#     return walk.count('n') == walk.count('s') and walk.count('e') == walk.count('w')
+
+
+"""roduct of consecutive Fib numbers --> 5kyu"""
+def productFib(prod):
+    a, b = 0, 1
+    while a * b < prod:
+        a, b = b, a + b
+    return [a, b, a * b == prod]
