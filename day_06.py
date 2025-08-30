@@ -9,3 +9,13 @@ Categorize New Member --> 7kyu
 #         else:
 #             result.append("Open")
 #     return result
+
+
+"""
+Detect Pangram --> 6kyu
+"""
+# import string
+#
+# def is_pangram(s: str) -> bool:
+#     alphabet = set(string.ascii_lowercase)  # {'a', 'b', 'c', ..., 'z'}
+#     return alphabet <= set(s.lower())
