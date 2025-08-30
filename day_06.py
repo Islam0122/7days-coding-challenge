@@ -19,3 +19,10 @@ Detect Pangram --> 6kyu
 # def is_pangram(s: str) -> bool:
 #     alphabet = set(string.ascii_lowercase)  # {'a', 'b', 'c', ..., 'z'}
 #     return alphabet <= set(s.lower())
+
+
+"""def is_valid_walk(walk) --> 6kyu"""
+def is_valid_walk(walk):
+    if len(walk) != 10:
+        return False
+    return walk.count('n') == walk.count('s') and walk.count('e') == walk.count('w')
