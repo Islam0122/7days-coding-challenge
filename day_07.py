@@ -11,3 +11,5 @@ Vowel Count --> 7kyu
 """
 Convert a Boolean to a String -->8kyu
 """
+# def boolean_to_string(b: bool) -> str:
+#     return str(b)
